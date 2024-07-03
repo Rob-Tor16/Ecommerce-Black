@@ -1,0 +1,38 @@
+footer{
+    grid-area: footer;
+    display: grid;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.footer{
+    position: relative;
+    top: 550px;
+}
+
+.section-div{
+    display: flex;
+    justify-content: space-between;
+ } 
+ 
+.tarjetas{
+    height: auto;
+    width: auto;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.envio{
+    height: auto;
+    width: auto;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+
+ul{
+    list-style-type: none;
+}

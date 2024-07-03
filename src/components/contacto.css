@@ -1,0 +1,6 @@
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    padding: 20px;
+}

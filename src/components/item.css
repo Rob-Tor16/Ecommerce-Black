@@ -1,0 +1,62 @@
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( 280px, 1fr));
+    gap:1rem; 
+}
+
+.producto{
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 250px;
+}
+
+.producto-titulo{
+    font-size: 20px;
+}
+.producto-imagen{
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.producto-detalles{
+    color: black;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: .25rem;  
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.producto-agregar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.agregar{
+    color: white;
+    border: 0;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;   
+}
+
+.producto-cantidad{
+    width: 2.5rem;
+}

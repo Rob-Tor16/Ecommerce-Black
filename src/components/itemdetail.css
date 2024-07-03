@@ -1,0 +1,41 @@
+.contenedor-detalle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+    margin-bottom: 70px;
+    gap: 30px;
+}
+
+.detalle-imagen{
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 1rem;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 10px 0px;
+}
+
+.detalle-titulo{
+    font-size: 1.5rem;
+    margin: 15px 0px 10px 0px;
+}
+
+.producto-detalles{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}

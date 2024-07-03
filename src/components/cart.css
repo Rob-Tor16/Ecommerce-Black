@@ -1,0 +1,58 @@
+.contenedor-carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.contenedor-sinItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 501px;
+}
+
+.titulo-comprar{
+    text-align: center;
+    color: white;
+}
+
+.titulo{
+    background-color: black;
+    padding: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-resumen{
+    background-color: black;
+    text-align: center;
+}
+
+.carrito{
+    border: solid grey 1px;
+    width: 700px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: auto;
+}
+
+h3{
+    color: white;
+}
+
+.acciones{
+    gap: 10px;
+    padding: 15px;
+}
+
+.total{
+    color: white;
+    text-align: left;
+}
